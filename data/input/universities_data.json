@@ -1,0 +1,52 @@
+[
+    {
+        "id": "U001",
+        "name": "Đại học Bách Khoa Hà Nội - Khoa CNTT&TT",
+        "counterpart_type": "university",
+        "target_industries": ["EdTech", "AI"],
+        "technology_focus": "AI, xử lý ngôn ngữ tự nhiên, học máy ứng dụng trong giáo dục",
+        "problem_focus": "Thiếu dữ liệu thực tế và môi trường thử nghiệm sản phẩm AI giáo dục cho sinh viên nghiên cứu",
+        "investment_thesis": "Mong muốn hợp tác nghiên cứu chung, đồng phát triển thuật toán, và cho sinh viên/giảng viên thử nghiệm sản phẩm thực tế của startup EdTech.",
+        "customer_focus": "Sinh viên, giảng viên, phòng thí nghiệm nghiên cứu AI"
+    },
+    {
+        "id": "U002",
+        "name": "Đại học Sư phạm Hà Nội - Viện Nghiên cứu Sư phạm",
+        "counterpart_type": "university",
+        "target_industries": ["EdTech"],
+        "technology_focus": "Phương pháp sư phạm số, công nghệ hỗ trợ giảng dạy STEM",
+        "problem_focus": "Giáo viên phổ thông thiếu công cụ giảng dạy STEM/Vật lý tương tác, trực quan",
+        "investment_thesis": "Tìm kiếm startup EdTech có sản phẩm mô phỏng/tương tác để phối hợp thí điểm trong chương trình đào tạo giáo viên và trường thực hành.",
+        "customer_focus": "Giáo viên phổ thông, sinh viên sư phạm, trường thực hành"
+    },
+    {
+    "id": "U003",
+    "name": "Học viện Nông nghiệp Việt Nam",
+    "counterpart_type": "university",
+    "target_industries": ["AgriTech", "FoodTech"],
+    "technology_focus": "Công nghệ sinh học nông nghiệp, IoT trong canh tác, phân tích dữ liệu nông nghiệp",
+    "problem_focus": "Thiếu ứng dụng thực tế của nghiên cứu nông nghiệp vào mô hình canh tác quy mô nhỏ và vừa",
+    "investment_thesis": "Mong muốn hợp tác nghiên cứu và thử nghiệm thực địa (pilot) cho các giải pháp AgriTech tại trang trại thực nghiệm của trường.",
+    "customer_focus": "Nông dân, hợp tác xã, sinh viên/giảng viên nghiên cứu nông nghiệp"
+  },
+  {
+    "id": "U004",
+    "name": "Đại học Kinh tế Quốc dân",
+    "counterpart_type": "university",
+    "target_industries": ["FinTech", "RetailTech"],
+    "technology_focus": "Phân tích dữ liệu kinh tế - tài chính, mô hình hóa hành vi tiêu dùng",
+    "problem_focus": "Thiếu dữ liệu thực tế và case study doanh nghiệp cho nghiên cứu ứng dụng kinh tế số",
+    "investment_thesis": "Mong muốn hợp tác nghiên cứu chung, mời startup FinTech/RetailTech chia sẻ case study và dữ liệu cho giảng dạy/nghiên cứu.",
+    "customer_focus": "Sinh viên, giảng viên khối Kinh tế - Tài chính"
+  },
+  {
+    "id": "U005",
+    "name": "Đại học Y Hà Nội",
+    "counterpart_type": "university",
+    "target_industries": ["HealthTech", "MedTech"],
+    "technology_focus": "Ứng dụng AI trong chẩn đoán, hồ sơ bệnh án điện tử",
+    "problem_focus": "Thiếu môi trường thử nghiệm lâm sàng thực tế cho công nghệ y tế số",
+    "investment_thesis": "Ưu tiên hợp tác thử nghiệm lâm sàng (pilot) và nghiên cứu chung với startup HealthTech có sản phẩm hỗ trợ chẩn đoán/quản lý bệnh án.",
+    "customer_focus": "Bệnh viện thực hành, bác sĩ, sinh viên y khoa"
+  }
+]

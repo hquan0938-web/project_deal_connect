@@ -1,0 +1,270 @@
+[
+    {
+      "id": "V001",
+      "name": "NextGen Ventures",
+      "target_industries": [
+        "EdTech",
+        "AI"
+      ],
+      "target_stages": [
+        "Seed",
+        "Pre-Series A"
+      ],
+      "ticket_size": "100000 - 500000",
+      "technology_focus": "AI, Adaptive Learning, NLP",
+      "problem_focus": "Giáo dục truyền thống thiếu tính cá nhân hóa",
+      "investment_thesis": "Đầu tư vào công nghệ giáo dục lõi có khả năng mở rộng nhanh.",
+      "customer_focus": "B2C, B2B2C"
+    },
+    {
+      "id": "V002",
+      "name": "LifeScience Capital",
+      "target_industries": [
+        "HealthTech",
+        "MedTech"
+      ],
+      "target_stages": [
+        "Series A"
+      ],
+      "ticket_size": "500000 - 2000000",
+      "technology_focus": "SaaS, Blockchain, Data Analytics",
+      "problem_focus": "Quá tải hệ thống quản lý bệnh án",
+      "investment_thesis": "Chuyển đổi số bệnh viện và phòng khám.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V003",
+      "name": "Green Earth Fund",
+      "target_industries": [
+        "AgriTech",
+        "CleanTech"
+      ],
+      "target_stages": [
+        "Seed",
+        "Pre-Series A",
+        "Series A"
+      ],
+      "ticket_size": "200000 - 3000000",
+      "technology_focus": "IoT, Smart Sensors, AI",
+      "problem_focus": "Nông nghiệp sử dụng nước và phân bón kém hiệu quả",
+      "investment_thesis": "Đầu tư vào nông nghiệp bền vững và công nghệ khí hậu.",
+      "customer_focus": "B2B, B2G"
+    },
+    {
+      "id": "V004",
+      "name": "FinTech Alpha",
+      "target_industries": [
+        "FinTech",
+        "Blockchain"
+      ],
+      "target_stages": [
+        "Series A",
+        "Series B"
+      ],
+      "ticket_size": "1000000 - 10000000",
+      "technology_focus": "Payments, Blockchain, APIs",
+      "problem_focus": "Thanh toán doanh nghiệp còn nhiều thủ công",
+      "investment_thesis": "Hạ tầng tài chính và thanh toán cho Đông Nam Á.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V005",
+      "name": "Vision AI Ventures",
+      "target_industries": [
+        "AI",
+        "Computer Vision"
+      ],
+      "target_stages": [
+        "Seed"
+      ],
+      "ticket_size": "150000 - 800000",
+      "technology_focus": "Computer Vision, Deep Learning",
+      "problem_focus": "Kiểm định chất lượng sản phẩm thủ công",
+      "investment_thesis": "AI ứng dụng trong sản xuất và logistics.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V006",
+      "name": "Retail Future",
+      "target_industries": [
+        "RetailTech",
+        "E-commerce"
+      ],
+      "target_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "ticket_size": "300000 - 2500000",
+      "technology_focus": "Recommendation Systems, AI",
+      "problem_focus": "Tỷ lệ chuyển đổi thương mại điện tử thấp",
+      "investment_thesis": "Giải pháp tăng doanh thu và trải nghiệm mua sắm.",
+      "customer_focus": "B2B2C"
+    },
+    {
+      "id": "V007",
+      "name": "Mobility Ventures",
+      "target_industries": [
+        "Mobility",
+        "Logistics"
+      ],
+      "target_stages": [
+        "Pre-Series A",
+        "Series A"
+      ],
+      "ticket_size": "500000 - 5000000",
+      "technology_focus": "Route Optimization, IoT",
+      "problem_focus": "Chi phí logistics cao",
+      "investment_thesis": "Tối ưu vận tải bằng AI và dữ liệu thời gian thực.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V008",
+      "name": "Cyber Shield VC",
+      "target_industries": [
+        "Cybersecurity",
+        "SaaS"
+      ],
+      "target_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "ticket_size": "250000 - 3000000",
+      "technology_focus": "Zero Trust, Cloud Security",
+      "problem_focus": "Doanh nghiệp thiếu giải pháp bảo mật hiện đại",
+      "investment_thesis": "An ninh mạng cho doanh nghiệp vừa và lớn.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V009",
+      "name": "Smart City Partners",
+      "target_industries": [
+        "Smart City",
+        "IoT"
+      ],
+      "target_stages": [
+        "Series A"
+      ],
+      "ticket_size": "1000000 - 8000000",
+      "technology_focus": "IoT, Edge Computing",
+      "problem_focus": "Quản lý hạ tầng đô thị kém hiệu quả",
+      "investment_thesis": "Hạ tầng đô thị thông minh và bền vững.",
+      "customer_focus": "B2G"
+    },
+    {
+      "id": "V010",
+      "name": "FoodTech Capital",
+      "target_industries": [
+        "FoodTech",
+        "AgriTech"
+      ],
+      "target_stages": [
+        "Seed",
+        "Pre-Series A"
+      ],
+      "ticket_size": "100000 - 1000000",
+      "technology_focus": "Supply Chain Analytics, IoT",
+      "problem_focus": "Lãng phí thực phẩm trong chuỗi cung ứng",
+      "investment_thesis": "Giảm thất thoát thực phẩm bằng công nghệ.",
+      "customer_focus": "B2B"
+    },
+    {
+      "id": "V011",
+      "name": "Climate Impact Fund",
+      "target_industries": [
+        "CleanTech",
+        "Energy"
+      ],
+      "target_stages": [
+        "Series A",
+        "Series B"
+      ],
+      "ticket_size": "2000000 - 10000000",
+      "technology_focus": "Renewable Energy, AI Forecasting",
+      "problem_focus": "Tối ưu sử dụng năng lượng tái tạo",
+      "investment_thesis": "Đầu tư tác động trong lĩnh vực năng lượng sạch.",
+      "customer_focus": "B2B, B2G"
+    },
+    {
+      "id": "V012",
+      "name": "Enterprise SaaS Ventures",
+      "target_industries": [
+        "SaaS",
+        "Enterprise Software"
+      ],
+      "target_stages": [
+        "Seed",
+        "Series A"
+      ],
+      "ticket_size": "250000 - 4000000",
+      "technology_focus": "Cloud, AI, Workflow Automation",
+      "problem_focus": "Quy trình doanh nghiệp còn thủ công",
+      "investment_thesis": "SaaS giúp doanh nghiệp tăng năng suất.",
+      "customer_focus": "B2B"
+    },
+    {
+    "id": "V013",
+    "name": "Do Ventures",
+    "target_industries": ["EdTech", "ConsumerTech", "FinTech"],
+    "target_stages": ["Seed", "Series A"],
+    "ticket_size": "500000 - 3000000",
+    "technology_focus": "Nền tảng tiêu dùng ứng dụng công nghệ, mobile-first",
+    "problem_focus": "Thị trường tiêu dùng Việt Nam thiếu giải pháp số hóa quy mô lớn",
+    "investment_thesis": "Đầu tư vào startup công nghệ tiêu dùng tại Việt Nam có khả năng mở rộng nhanh và tác động lớn tới thị trường nội địa.",
+    "customer_focus": "B2C"
+  },
+  {
+    "id": "V014",
+    "name": "ThinkZone Ventures",
+    "target_industries": ["AI", "SaaS", "EdTech"],
+    "target_stages": ["Seed", "Pre-Series A"],
+    "ticket_size": "50000 - 500000",
+    "technology_focus": "AI ứng dụng, phần mềm doanh nghiệp, nền tảng số",
+    "problem_focus": "Startup công nghệ Việt Nam thiếu vốn mồi và hỗ trợ vận hành giai đoạn đầu",
+    "investment_thesis": "Ưu tiên các đội ngũ sáng lập kỹ thuật mạnh, đầu tư sớm kèm hỗ trợ tăng trưởng qua chương trình ươm tạo.",
+    "customer_focus": "B2B, B2C"
+  },
+  {
+    "id": "V015",
+    "name": "VSV Capital",
+    "target_industries": ["AgriTech", "FinTech", "HealthTech", "AI"],
+    "target_stages": ["Seed"],
+    "ticket_size": "20000 - 200000",
+    "technology_focus": "Đa ngành công nghệ ứng dụng cho thị trường Việt Nam",
+    "problem_focus": "Startup giai đoạn ý tưởng/MVP thiếu vốn khởi động và mạng lưới cố vấn",
+    "investment_thesis": "Quỹ đầu tư giai đoạn hạt giống gắn với chương trình ươm tạo Vietnam Silicon Valley, ưu tiên đội ngũ sáng lập trẻ.",
+    "customer_focus": "B2B, B2C"
+  },
+  {
+    "id": "V016",
+    "name": "Nextrans",
+    "target_industries": ["Mobility", "FinTech", "AI"],
+    "target_stages": ["Series A"],
+    "ticket_size": "300000 - 2000000",
+    "technology_focus": "Nền tảng công nghệ có khả năng mở rộng khu vực Đông Nam Á",
+    "problem_focus": "Startup Việt Nam khó tiếp cận vốn và thị trường Hàn Quốc/khu vực",
+    "investment_thesis": "Kết nối startup Việt Nam với hệ sinh thái đầu tư Hàn Quốc, ưu tiên khả năng mở rộng đa thị trường.",
+    "customer_focus": "B2B, B2C"
+  },
+  {
+    "id": "V017",
+    "name": "Mekong Capital",
+    "target_industries": ["RetailTech", "E-commerce", "FoodTech"],
+    "target_stages": ["Series A", "Series B"],
+    "ticket_size": "2000000 - 10000000",
+    "technology_focus": "Nền tảng bán lẻ, chuỗi cung ứng số hóa",
+    "problem_focus": "Chuỗi bán lẻ/tiêu dùng truyền thống thiếu hiệu quả vận hành và trải nghiệm khách hàng",
+    "investment_thesis": "Đầu tư giai đoạn tăng trưởng vào doanh nghiệp tiêu dùng/bán lẻ Việt Nam có mô hình đã kiểm chứng.",
+    "customer_focus": "B2C"
+  },
+  {
+    "id": "V018",
+    "name": "DeepTech Frontier Capital",
+    "target_industries": ["DeepTech", "Robotics", "Computer Vision"],
+    "target_stages": ["Seed", "Series A"],
+    "ticket_size": "200000 - 1500000",
+    "technology_focus": "Robotics, thị giác máy tính, tự động hóa công nghiệp",
+    "problem_focus": "Doanh nghiệp sản xuất thiếu giải pháp tự động hóa chi phí hợp lý",
+    "investment_thesis": "Đầu tư vào startup deep-tech có rào cản công nghệ cao, ứng dụng thực tiễn trong sản xuất/công nghiệp.",
+    "customer_focus": "B2B"
+  }
+  ]

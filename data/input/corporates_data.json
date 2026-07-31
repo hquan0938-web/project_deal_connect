@@ -1,0 +1,52 @@
+[
+    {
+        "id": "C001",
+        "name": "Tập đoàn FPT",
+        "counterpart_type": "corporation",
+        "target_industries": ["EdTech", "AI"],
+        "technology_focus": "AI, Adaptive Learning, nền tảng công nghệ giáo dục quy mô lớn",
+        "problem_focus": "Chuyển đổi số giáo dục, thiếu công cụ cá nhân hóa học tập ở quy mô doanh nghiệp",
+        "investment_thesis": "Tìm kiếm startup EdTech có công nghệ lõi mạnh để tích hợp vào hệ sinh thái giáo dục của tập đoàn (FPT Education, FUNiX...), ưu tiên hợp tác chiến lược và đầu tư góp vốn.",
+        "customer_focus": "B2B2C, học sinh/sinh viên trong hệ thống giáo dục của tập đoàn"
+    },
+    {
+        "id": "C002",
+        "name": "Tập đoàn Vingroup",
+        "counterpart_type": "corporation",
+        "target_industries": ["EdTech", "HealthTech", "AI"],
+        "technology_focus": "AI ứng dụng, VR/AR, công nghệ mô phỏng tương tác",
+        "problem_focus": "Thiếu giải pháp công nghệ mô phỏng thực tế ảo cho đào tạo nội bộ và giáo dục",
+        "investment_thesis": "Tìm startup có công nghệ mô phỏng/tương tác (VR, AI) có thể ứng dụng trong hệ thống trường học Vinschool hoặc đào tạo nhân sự nội bộ tập đoàn.",
+        "customer_focus": "Học sinh phổ thông, nhân sự nội bộ tập đoàn"
+    },
+    {
+    "id": "C003",
+    "name": "Tập đoàn Công nghiệp - Viễn thông Quân đội Viettel",
+    "counterpart_type": "corporation",
+    "target_industries": ["Cybersecurity", "AI", "Smart City", "SaaS"],
+    "technology_focus": "AI, an ninh mạng, hạ tầng viễn thông và điện toán đám mây quy mô lớn",
+    "problem_focus": "Nhu cầu bảo mật dữ liệu và chuyển đổi số ở quy mô quốc gia/doanh nghiệp lớn",
+    "investment_thesis": "Tìm kiếm startup công nghệ lõi (AI, bảo mật, IoT) để tích hợp vào hệ sinh thái sản phẩm số của tập đoàn, ưu tiên hợp tác thương mại hóa và đầu tư chiến lược.",
+    "customer_focus": "B2B, B2G"
+  },
+  {
+    "id": "C004",
+    "name": "Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT)",
+    "counterpart_type": "corporation",
+    "target_industries": ["Smart City", "IoT", "SaaS"],
+    "technology_focus": "Hạ tầng viễn thông, IoT, nền tảng chính quyền số",
+    "problem_focus": "Địa phương/doanh nghiệp thiếu giải pháp số hóa đồng bộ trên nền tảng hạ tầng viễn thông sẵn có",
+    "investment_thesis": "Ưu tiên hợp tác với startup có giải pháp IoT/Smart City có thể triển khai trên hạ tầng viễn thông của VNPT tại các tỉnh/thành.",
+    "customer_focus": "B2G, B2B"
+  },
+  {
+    "id": "C005",
+    "name": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)",
+    "counterpart_type": "corporation",
+    "target_industries": ["FinTech", "Blockchain"],
+    "technology_focus": "Ngân hàng số, thanh toán điện tử, chấm điểm tín dụng bằng AI",
+    "problem_focus": "Quy trình tài chính truyền thống chậm, thiếu cá nhân hóa cho khách hàng số",
+    "investment_thesis": "Tìm kiếm startup FinTech có giải pháp bổ trợ cho dịch vụ ngân hàng số, ưu tiên hợp tác thí điểm (sandbox) trước khi mở rộng.",
+    "customer_focus": "B2C, B2B"
+  }
+]

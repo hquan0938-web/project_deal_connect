@@ -1,0 +1,42 @@
+[
+    {
+        "id": "R001",
+        "name": "Viện Nghiên cứu Công nghệ NIC",
+        "counterpart_type": "research_institution",
+        "target_industries": ["EdTech", "AI", "DeepTech"],
+        "technology_focus": "AI ứng dụng, mô phỏng vật lý/kỹ thuật số, chuyển giao công nghệ",
+        "problem_focus": "Thiếu cầu nối giữa nghiên cứu công nghệ lõi và ứng dụng thương mại hóa trong giáo dục",
+        "investment_thesis": "Ưu tiên startup có công nghệ lõi (AI, mô phỏng) sẵn sàng thử nghiệm pilot và chuyển giao công nghệ với sự hỗ trợ kỹ thuật từ viện.",
+        "customer_focus": "Startup giai đoạn early-stage cần hỗ trợ kỹ thuật, cơ quan nhà nước cần giải pháp thí điểm"
+    },
+    {
+        "id": "R002",
+        "name": "Viện Khoa học Giáo dục Việt Nam",
+        "counterpart_type": "research_institution",
+        "target_industries": ["EdTech"],
+        "technology_focus": "Công nghệ đánh giá học tập, phân tích dữ liệu giáo dục",
+        "problem_focus": "Thiếu công cụ đo lường hiệu quả học tập cá nhân hóa dựa trên dữ liệu thực nghiệm",
+        "investment_thesis": "Tìm kiếm startup có nền tảng công nghệ đo lường/phân tích học tập để phối hợp nghiên cứu chính sách giáo dục quốc gia.",
+        "customer_focus": "Học sinh, nhà nghiên cứu chính sách giáo dục"
+    },
+    {
+    "id": "R003",
+    "name": "Viện Hàn lâm Khoa học và Công nghệ Việt Nam (VAST)",
+    "counterpart_type": "research_institution",
+    "target_industries": ["DeepTech", "AI", "CleanTech"],
+    "technology_focus": "Nghiên cứu khoa học công nghệ lõi đa ngành, vật liệu mới, công nghệ sinh học",
+    "problem_focus": "Khoảng cách giữa nghiên cứu cơ bản và ứng dụng thương mại hóa trong công nghiệp",
+    "investment_thesis": "Ưu tiên startup deep-tech có nhu cầu chuyển giao công nghệ lõi hoặc hợp tác R&D chuyên sâu với các viện chuyên ngành trực thuộc.",
+    "customer_focus": "Startup deep-tech giai đoạn đầu, doanh nghiệp cần chuyển giao công nghệ"
+  },
+  {
+    "id": "R004",
+    "name": "Viện Công nghệ Thông tin (VAST)",
+    "counterpart_type": "research_institution",
+    "target_industries": ["AI", "Cybersecurity", "Computer Vision"],
+    "technology_focus": "Xử lý ảnh, an toàn thông tin, hệ thống nhúng",
+    "problem_focus": "Doanh nghiệp/startup thiếu năng lực R&D chuyên sâu về thuật toán lõi",
+    "investment_thesis": "Hỗ trợ kỹ thuật và hợp tác nghiên cứu chung cho startup cần tối ưu thuật toán AI/thị giác máy tính trước khi thương mại hóa.",
+    "customer_focus": "Startup công nghệ giai đoạn early-stage cần hỗ trợ R&D"
+  }
+]

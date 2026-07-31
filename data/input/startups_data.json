@@ -1,0 +1,122 @@
+[
+  {
+    "id": "S001",
+    "name": "EduBot Vietnam",
+    "industry": "EdTech",
+    "stage": "Seed",
+    "funding": 300000,
+    "technology": "Artificial Intelligence, Machine Learning, Adaptive Learning, NLP",
+    "problem": "Giáo viên khó cá nhân hóa lộ trình học và mất nhiều thời gian chấm bài.",
+    "solution": "Nền tảng học tập thích ứng sử dụng AI để tạo lộ trình học cá nhân hóa và tự động chấm điểm.",
+    "customers": "Trường THCS, THPT, học sinh và giáo viên",
+    "summary": "Nền tảng EdTech ứng dụng AI giúp cá nhân hóa việc học và nâng cao hiệu quả giảng dạy."
+  },
+  {
+    "id": "S002",
+    "name": "HealthLink",
+    "industry": "HealthTech",
+    "stage": "Series A",
+    "funding": 1500000,
+    "technology": "Cloud Computing, SaaS, Blockchain",
+    "problem": "Bệnh viện quản lý hồ sơ bệnh án phân tán và thiếu tính liên thông.",
+    "solution": "Hệ thống EMR trên nền tảng SaaS kết hợp Blockchain để chia sẻ dữ liệu bệnh nhân an toàn.",
+    "customers": "Bệnh viện, phòng khám",
+    "summary": "Giải pháp số hóa hồ sơ bệnh án giúp bệnh viện quản lý dữ liệu hiệu quả và bảo mật."
+  },
+  {
+    "id": "S003",
+    "name": "FarmSense",
+    "industry": "AgriTech",
+    "stage": "Pre-Series A",
+    "funding": 700000,
+    "technology": "IoT, AI, Edge Computing",
+    "problem": "Nông dân khó theo dõi điều kiện đất và tưới tiêu theo thời gian thực.",
+    "solution": "Hệ thống cảm biến IoT kết hợp AI để tối ưu lượng nước tưới và phân bón.",
+    "customers": "Nông hộ, hợp tác xã, doanh nghiệp nông nghiệp",
+    "summary": "Nền tảng nông nghiệp thông minh giúp tăng năng suất và giảm chi phí sản xuất."
+  },
+  {
+    "id": "S004",
+    "name": "PayFlow",
+    "industry": "FinTech",
+    "stage": "Series A",
+    "funding": 2500000,
+    "technology": "Blockchain, Payment API, Cloud",
+    "problem": "Doanh nghiệp mất nhiều thời gian đối soát và xử lý thanh toán.",
+    "solution": "API thanh toán doanh nghiệp giúp tự động hóa dòng tiền và giao dịch.",
+    "customers": "Doanh nghiệp SME, ngân hàng",
+    "summary": "Hạ tầng thanh toán số giúp doanh nghiệp quản lý dòng tiền hiệu quả."
+  },
+  {
+    "id": "S005",
+    "name": "VisionInspect",
+    "industry": "AI",
+    "stage": "Seed",
+    "funding": 500000,
+    "technology": "Computer Vision, Deep Learning",
+    "problem": "Kiểm tra chất lượng sản phẩm bằng con người tốn nhiều thời gian và dễ sai sót.",
+    "solution": "Hệ thống Computer Vision tự động phát hiện lỗi trên dây chuyền sản xuất.",
+    "customers": "Nhà máy sản xuất",
+    "summary": "Giải pháp AI giúp tự động hóa kiểm định chất lượng công nghiệp."
+  },
+  {
+    "id": "S006",
+    "name": "RetailBoost",
+    "industry": "RetailTech",
+    "stage": "Series A",
+    "funding": 1800000,
+    "technology": "Recommendation System, Machine Learning",
+    "problem": "Website thương mại điện tử có tỷ lệ chuyển đổi thấp.",
+    "solution": "AI đề xuất sản phẩm theo hành vi khách hàng theo thời gian thực.",
+    "customers": "Doanh nghiệp thương mại điện tử",
+    "summary": "Nền tảng AI giúp tăng doanh thu và tỷ lệ chuyển đổi cho cửa hàng trực tuyến."
+  },
+  {
+    "id": "S007",
+    "name": "SecureCloud",
+    "industry": "Cybersecurity",
+    "stage": "Seed",
+    "funding": 400000,
+    "technology": "Cloud Security, Zero Trust",
+    "problem": "Doanh nghiệp vừa và nhỏ thiếu giải pháp bảo mật hiện đại.",
+    "solution": "Nền tảng Zero Trust bảo vệ hệ thống cloud và quản lý truy cập.",
+    "customers": "Doanh nghiệp SME",
+    "summary": "Giải pháp an ninh mạng trên nền tảng cloud dành cho doanh nghiệp."
+  },
+  {
+    "id": "S008",
+    "name": "SmartCity AI",
+    "industry": "Smart City",
+    "stage": "Series A",
+    "funding": 3500000,
+    "technology": "IoT, AI, Edge Computing",
+    "problem": "Chính quyền khó giám sát hạ tầng đô thị theo thời gian thực.",
+    "solution": "Hệ thống IoT và AI giám sát giao thông, môi trường và năng lượng.",
+    "customers": "Chính quyền địa phương",
+    "summary": "Giải pháp đô thị thông minh giúp tối ưu vận hành hạ tầng công cộng."
+  },
+  {
+    "id": "S009",
+    "name": "GreenEnergy",
+    "industry": "CleanTech",
+    "stage": "Series B",
+    "funding": 6000000,
+    "technology": "AI Forecasting, Renewable Energy",
+    "problem": "Khó dự báo sản lượng điện từ nguồn năng lượng tái tạo.",
+    "solution": "Nền tảng AI dự báo sản lượng và tối ưu phân phối điện.",
+    "customers": "Doanh nghiệp năng lượng",
+    "summary": "AI hỗ trợ quản lý và tối ưu hệ thống năng lượng tái tạo."
+  },
+  {
+    "id": "S010",
+    "name": "WorkflowX",
+    "industry": "SaaS",
+    "stage": "Seed",
+    "funding": 450000,
+    "technology": "Cloud, Workflow Automation, AI",
+    "problem": "Doanh nghiệp quản lý quy trình nội bộ bằng Excel và email.",
+    "solution": "Nền tảng SaaS tự động hóa quy trình làm việc và phê duyệt.",
+    "customers": "Doanh nghiệp vừa và nhỏ",
+    "summary": "Giải pháp SaaS giúp doanh nghiệp số hóa quy trình và tăng năng suất."
+  }
+]

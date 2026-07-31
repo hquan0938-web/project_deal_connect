@@ -1,0 +1,39 @@
+# ==== Secrets / credentials ====
+.env
+secrets/
+*.token.json
+credentials.json
+token.json
+TOKEN_PATH
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ==== Data & model artifacts sinh ra khi chạy (tự tạo lại được, không cần commit) ====
+data/output/
+data/llm_logs.db
+core/data/models/*.pkl
+*.pkl
+
+# Model đã train (data/models/match_scorer.joblib) CỐ TÌNH không ignore —
+# giữ lại trong repo để clone về chạy được ngay, không cần train lại.
+
+# ==== File test tạo trong lúc debug OAuth ====
+test_write.json
+test_token_like.json
+test_delay.py
+test_token_like.py
+
+# ==== IDE / OS ====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
