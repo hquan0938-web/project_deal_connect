@@ -25,7 +25,7 @@ def batch_process(pitchdecks_dir: str = PITCHDECKS_DIR):
             print(f"[batch]   Lỗi khi match {name}: {e}")
             continue
         try:
-            bootstrap_main()
+            bootstrap_main(reset_non_bootstrap=(i == 1))
         except Exception as e:
             print(f"[batch]   Lỗi khi bootstrap label cho {name}: {e}")
             continue

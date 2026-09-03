@@ -94,7 +94,7 @@ def build_pairwise_rows(startups: list, investors: list, anchor_positive: dict, 
  
     return rows
 
-def main():
+def main(reset_non_bootstrap: bool = True):
     investors = load_investors()
     all_industries = load_all_industries(investors)
     startups = load_startups()
@@ -102,7 +102,7 @@ def main():
     construction_pairs_list = construction_pairs(startups, investors, all_industries)
     anchor_positive = next((p for p in construction_pairs_list if p["source"] == "construction_positive"), None)
     anchor_negative = next((p for p in construction_pairs_list if p["source"] == "construction_industry_mismatch"), None)
- 
+
     pairwise_rows = build_pairwise_rows(startups, investors, anchor_positive, anchor_negative)
     all_rows = construction_rows + pairwise_rows
     if not all_rows:
@@ -112,9 +112,9 @@ def main():
 
     if os.path.exists(OUTPUT_PATH):
         old_df = pd.read_csv(OUTPUT_PATH)
-        # Chỉ giữ lại nhãn bootstrap_llm gốc từ file cũ, loại bỏ construction/pairwise cũ
-        # để tránh nhân đôi khi chạy lại (giống cơ chế trong generate_pairs.py)
-        old_df = old_df[old_df["source"] == "bootstrap_llm"]
+        if reset_non_bootstrap:
+            # Chỉ dọn construction/pairwise CŨ khi được yêu cầu (vd chạy độc lập, không phải trong batch)
+            old_df = old_df[old_df["source"] == "bootstrap_llm"]
         combined = pd.concat([old_df, new_df], ignore_index=True)
     else:
         combined = new_df
@@ -123,8 +123,7 @@ def main():
     combined.to_csv(OUTPUT_PATH, index=False)
     print(f"[bootstrap] Đã ghi {len(combined)} dòng vào {OUTPUT_PATH} "
           f"({len(new_df)} dòng mới: {len(construction_rows)} construction + {len(pairwise_rows)} pairwise).")
- 
- 
- 
+
+
 if __name__ == "__main__":
     main()
