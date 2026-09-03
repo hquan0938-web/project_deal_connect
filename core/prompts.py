@@ -162,3 +162,67 @@ BẮT BUỘC trả về CHỈ một chuỗi JSON, không có markdown, không c�
     "reason": "<lý do ngắn gọn 1 câu>"
 }}
 """
+def get_pairwise_judge_prompt(
+    startup: dict,
+    investor_a: dict,
+    investor_b: dict,
+    anchor_positive: dict = None,
+    anchor_negative: dict = None,
+) -> str:
+    """
+    Prompt so sánh TƯƠNG ĐỐI giữa 2 investor cho cùng 1 startup, thay vì
+    chấm điểm tuyệt đối rời rạc (get_judge_prompt). LLM ổn định hơn hẳn khi
+    so sánh A/B so với chấm thang 1-5 tuyệt đối.
+
+    anchor_positive / anchor_negative: dict {"startup":..., "investor":...}
+    lấy từ generate_construction_pairs.py (nhãn đã biết chắc) để "neo" thang
+    đánh giá cho LLM ngay trong prompt, không cần viết tay ví dụ.
+    """
+    startup_name = startup.get("name", "[Không rõ tên]")
+
+    def _investor_block(investor, label):
+        return f"""QUỸ {label}:
+- Tên: {investor.get("name", "N/A")}
+- Ngành ưu tiên: {investor.get("target_industries", "N/A")}
+- Giai đoạn ưu tiên: {investor.get("target_stages", "N/A")}
+- Trọng tâm công nghệ: {investor.get("technology_focus", "N/A")}
+- Trọng tâm vấn đề: {investor.get("problem_focus", "N/A")}
+- Luận điểm đầu tư: {investor.get("investment_thesis", "N/A")}
+- Trọng tâm khách hàng: {investor.get("customer_focus", "N/A")}"""
+
+    anchor_block = ""
+    if anchor_positive and anchor_negative:
+        anchor_block = f"""
+VÍ DỤ MẪU ĐỂ CALIBRATE THANG ĐÁNH GIÁ (không phải câu hỏi thật, chỉ để tham khảo mức độ):
+- Case được xem là PHÙ HỢP CAO: startup ngành {anchor_positive["startup"].get("industry")} với investor có
+  trọng tâm công nghệ "{anchor_positive["investor"].get("technology_focus")}" -> đây là mức "rất phù hợp".
+- Case được xem là KHÔNG PHÙ HỢP: startup ngành {anchor_negative["startup"].get("industry")} với investor chỉ
+  quan tâm ngành {anchor_negative["investor"].get("target_industries")} -> đây là mức "không phù hợp".
+"""
+
+    return f"""Bạn là một chuyên gia thẩm định đầu tư độc lập. Nhiệm vụ: so sánh 2 quỹ đầu tư dưới đây, quỹ nào PHÙ HỢP HƠN với startup, dựa THUẦN TÚY trên dữ liệu được cung cấp.
+{anchor_block}
+HỒ SƠ STARTUP:
+- Tên: {startup_name}
+- Ngành: {startup.get("industry", "N/A")}
+- Giai đoạn: {startup.get("stage", "N/A")}
+- Công nghệ: {startup.get("technology", "N/A")}
+- Vấn đề giải quyết: {startup.get("problem", "N/A")}
+- Giải pháp: {startup.get("solution", "N/A")}
+- Khách hàng mục tiêu: {startup.get("customers", "N/A")}
+
+{_investor_block(investor_a, "A")}
+
+{_investor_block(investor_b, "B")}
+
+QUY TẮC:
+1. CHỈ dựa vào dữ liệu ở trên, không suy đoán hay bịa thêm thông tin.
+2. Nếu 2 quỹ phù hợp ngang nhau (không phân biệt được), trả về "tie".
+3. Đưa ra lý do ngắn gọn (1 câu).
+
+BẮT BUỘC trả về CHỈ một chuỗi JSON, không có markdown, không có chữ nào khác:
+{{
+    "winner": "A" | "B" | "tie",
+    "reason": "<lý do ngắn gọn 1 câu>"
+}}
+"""
