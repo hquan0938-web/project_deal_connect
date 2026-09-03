@@ -93,7 +93,7 @@ def hard_negative_ticket(startup:dict, investor: dict) -> dict:
         "label" : 0,
         "source" :  "construction_ticket_mismatch",
         "judge_reason": f"Construction: funding ép thành {clone['funding']}, gấp 3 lần ticket size tối đa của investor.",
-        "weight": 3.0
+        "weight": 1.0
     }
 def positive_exact(investor: dict) -> dict:
     """

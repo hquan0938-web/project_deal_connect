@@ -234,67 +234,75 @@ technology_focus,problem_focus,investment_thesis,customer_focus,funding_fit,labe
 0.4957,0.3365,0.4429,0.42,0.5,0,bootstrap_llm,research_institution,2.0,"Mặc dù WorkflowX sử dụng AI, một ngành ưu tiên của quỹ, trọng tâm công nghệ lõi và luận điểm đầu tư về chuyển giao công nghệ của VAST không phù hợp với mô hình SaaS và khách hàng SMB của startup.",1.0
 0.63,0.3492,0.5144,0.4183,0.5,0,bootstrap_llm,research_institution,3.0,"Startup có công nghệ AI và giai đoạn seed phù hợp với trọng tâm công nghệ và giai đoạn của quỹ, tuy nhiên ngành giải quyết và khách hàng mục tiêu không khớp với trọng tâm vấn đề (giáo dục) và khách hàng cuối của quỹ.",1.0
 0.6377,0.4601,0.5194,0.4158,0.5,0,bootstrap_llm,research_institution,3.0,"Startup sử dụng công nghệ AI và ở giai đoạn seed, phù hợp với ngành ưu tiên và trọng tâm khách hàng early-stage của quỹ, nhưng trọng tâm công nghệ và luận điểm đầu tư chuyên sâu về thuật toán lõi, xử lý ảnh/thị giác máy tính của quỹ không hoàn toàn trùng khớp với giải pháp tự động hóa quy trình của startup.",1.0
-1.000000238418579,1.0000001192092896,1.0000001192092896,1.0,1.0,1,construction_positive,,,,1.0
-0.6849048137664795,0.448530912399292,0.5736530423164368,0.8927841186523438,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,1.0000001192092896,1.0,1.0,1,construction_positive,,,,1.0
-0.6442445516586304,0.39777424931526184,0.47281593084335327,0.8575621843338013,0.6,0,construction_industry_mismatch,,,,3.0
-1.0000001192092896,1.0000001192092896,0.9999999403953552,0.9999998807907104,1.0,1,construction_positive,,,,1.0
-0.5611053705215454,0.5324915051460266,0.6162368059158325,0.8618234992027283,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0000001192092896,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.5674607157707214,0.3691558539867401,0.5270749926567078,0.8618234992027283,0.30000000000000004,0,construction_industry_mismatch,,,,3.0
-1.0,0.9999999403953552,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.5720014572143555,0.42437049746513367,0.6085246801376343,1.0,1.0,0,construction_industry_mismatch,,,,3.0
-1.0000001192092896,1.0,1.0000001192092896,1.0,1.0,1,construction_positive,,,,1.0
-0.6880694627761841,0.4811275899410248,0.5936238765716553,0.8377703428268433,1.0,0,construction_industry_mismatch,,,,3.0
-1.0000001192092896,1.0000001192092896,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.4035995900630951,0.45521098375320435,0.4220086336135864,0.8575621843338013,0.6,0,construction_industry_mismatch,,,,3.0
-1.0000001192092896,1.000000238418579,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.5130265951156616,0.4704304337501526,0.5180859565734863,0.8618234992027283,1.0,0,construction_industry_mismatch,,,,3.0
-1.000000238418579,1.0,1.0000001192092896,1.0000001192092896,1.0,1,construction_positive,,,,1.0
-0.6975827813148499,0.4066418409347534,0.538585901260376,0.8789249658584595,0.30000000000000004,0,construction_industry_mismatch,,,,3.0
-1.0,0.9999999403953552,0.9999999403953552,1.0,1.0,1,construction_positive,,,,1.0
-0.537938117980957,0.5104193687438965,0.5350768566131592,1.0,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,1.0,0.9999998807907104,1.0,1,construction_positive,,,,1.0
-0.6823380589485168,0.3688421845436096,0.570569634437561,0.8618234992027283,0.15000000000000002,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,1.0000001192092896,1.0,1.0,1,construction_positive,,,,1.0
-0.6182652711868286,0.40530937910079956,0.5300625562667847,0.8789249658584595,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0000001192092896,1.0,1.0000001192092896,1.0,1,construction_positive,,,,1.0
-0.5031139850616455,0.43297648429870605,0.40603214502334595,0.9369324445724487,0.6,0,construction_industry_mismatch,,,,3.0
-1.0000001192092896,1.0,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.636915922164917,0.353439062833786,0.5771546363830566,0.952068567276001,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,1.0,1.0,1.0,1,construction_positive,,,,1.0
-0.3710367679595947,0.4617321193218231,0.43726012110710144,0.8750417828559875,0.5,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,1.000000238418579,1.0,1.0,1,construction_positive,,,,1.0
-0.49004384875297546,0.3092898726463318,0.5482848882675171,0.952068567276001,1.0,0,construction_industry_mismatch,,,,3.0
-1.0,1.0000001192092896,1.0000001192092896,1.0000001192092896,1.0,1,construction_positive,,,,1.0
-0.5514895915985107,0.5479596853256226,0.525016188621521,0.8301135301589966,0.15000000000000002,0,construction_industry_mismatch,,,,3.0
-1.0,1.0,0.9999999403953552,1.0,1.0,1,construction_positive,,,,1.0
-0.467948853969574,0.6824811697006226,0.5486239194869995,1.0,1.0,0,construction_industry_mismatch,,,,3.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,0.0,0,construction_ticket_mismatch,,,,1.0
-0.46265020966529846,0.38948854804039,0.32514145970344543,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4996122419834137,0.46101829409599304,0.3962084650993347,0.46417200565338135,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4661597013473511,0.4321036636829376,0.3699609041213989,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5474913716316223,0.3689790368080139,0.5182809829711914,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5470486879348755,0.5370992422103882,0.38889628648757935,0.4241402745246887,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4398092031478882,0.41476431488990784,0.49444305896759033,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.37404853105545044,0.48353999853134155,0.35384276509284973,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4513419270515442,0.48053258657455444,0.39189478754997253,0.41231364011764526,0.0,0,construction_ticket_mismatch,,,,1.0
-0.42170822620391846,0.37424588203430176,0.3759216070175171,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5867904424667358,0.3930092453956604,0.37973451614379883,0.46417200565338135,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5461686849594116,0.40547478199005127,0.3975449204444885,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4244101047515869,0.4624773859977722,0.37176620960235596,0.4093908965587616,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5479834675788879,0.47122278809547424,0.4259885549545288,0.4364706873893738,0.0,0,construction_ticket_mismatch,,,,1.0
-0.4239908456802368,0.4752899408340454,0.35855811834335327,0.4364706873893738,0.0,0,construction_ticket_mismatch,,,,1.0
-0.429834246635437,0.4593254625797272,0.3573874235153198,0.4364706873893738,0.0,0,construction_ticket_mismatch,,,,1.0
-0.3933846950531006,0.5881021022796631,0.3442460894584656,0.4093908965587616,0.0,0,construction_ticket_mismatch,,,,1.0
-0.5117953419685364,0.5105267763137817,0.4435781240463257,0.43684911727905273,0.0,0,construction_ticket_mismatch,,,,1.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,1.0,1,pairwise,,,,1.0
-0.4996122419834137,0.46101829409599304,0.3962084650993347,0.46417200565338135,1.0,0,pairwise,,,,1.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,1.0,1,pairwise,,,,1.0
-0.37404853105545044,0.48353999853134155,0.35384276509284973,0.43684911727905273,1.0,0,pairwise,,,,1.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,1.0,1,pairwise,,,,1.0
-0.5474913716316223,0.3689790368080139,0.5182809829711914,0.43684911727905273,1.0,0,pairwise,,,,1.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,1.0,1,pairwise,,,,1.0
-0.5470486879348755,0.5370992422103882,0.38889628648757935,0.4241402745246887,1.0,0,pairwise,,,,1.0
-0.6441603899002075,0.644995927810669,0.5008087158203125,0.42662185430526733,1.0,1,pairwise,,,,1.0
-0.42170822620391846,0.37424588203430176,0.3759216070175171,0.43684911727905273,1.0,0,pairwise,,,,1.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.4331,0.4769,0.4942,0.8381,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V008' (không cùng target_industries với 'V001'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5332,0.3449,0.509,1.0,0.6,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V005' (không cùng target_industries với 'V002'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.6156,0.378,0.573,0.8618,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V005' (không cùng target_industries với 'V003'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.7564,0.5152,0.507,1.0,0.3,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V002' (không cùng target_industries với 'V004'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5202,0.3544,0.5447,1.0,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V008' (không cùng target_industries với 'V005'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.7339,0.4188,0.5422,0.8378,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V011' (không cùng target_industries với 'V006'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5423,0.5159,0.5669,1.0,0.6,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V004' (không cùng target_industries với 'V007'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.4331,0.4769,0.4942,0.8381,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V001' (không cùng target_industries với 'V008'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5366,0.5016,0.477,0.8483,0.3,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V013' (không cùng target_industries với 'V009'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.6976,0.4066,0.5386,0.8789,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V009' (không cùng target_industries với 'V010'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.7339,0.4188,0.5422,0.8378,0.15,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V006' (không cùng target_industries với 'V011'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.46,0.4567,0.5235,0.9369,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V013' (không cùng target_industries với 'V012'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.4676,0.3643,0.4995,0.9369,0.6,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V005' (không cùng target_industries với 'V013'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5137,0.4389,0.4983,0.8576,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V007' (không cùng target_industries với 'V014'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.4784,0.5088,0.5389,0.8762,0.5,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V017' (không cùng target_industries với 'V015'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.4013,0.5345,0.5137,0.8576,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V008' (không cùng target_industries với 'V016'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5557,0.4654,0.5139,0.9369,0.15,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V012' (không cùng target_industries với 'V017'), ghép cặp label=0.",3.0
+1.0,1.0,1.0,1.0,1.0,1,construction_positive,investor,,Construction: profile tổng hợp khớp chính xác tiêu chí investor.,1.0
+0.5611,0.5325,0.6162,0.8618,1.0,0,construction_industry_mismatch,investor,,"Construction: profile thuộc domain của investor 'V003' (không cùng target_industries với 'V018'), ghép cặp label=0.",3.0
+0.5301,0.4732,0.447,0.5185,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 1500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6606,0.4202,0.5112,0.4587,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 1500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5332,0.4168,0.425,0.4615,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 6000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5199,0.4513,0.389,0.3671,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 6000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6,0.4628,0.4697,0.5858,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.7788,0.5018,0.548,0.4228,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.7458,0.4764,0.4858,0.3993,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5673,0.5012,0.4692,0.6114,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6466,0.3625,0.6179,0.3671,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 2400000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6042,0.3949,0.5786,0.6019,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 2400000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6469,0.4801,0.4617,0.4211,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 7500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.7496,0.5091,0.5001,0.4602,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 7500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5669,0.4746,0.708,0.5011,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 15000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5183,0.6088,0.6164,0.5248,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 15000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5145,0.5308,0.5083,0.4562,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5202,0.4296,0.4735,0.4615,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6195,0.4393,0.4626,0.3996,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 24000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5188,0.4705,0.4608,0.3289,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 24000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.592,0.4087,0.5578,0.5011,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 3000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.572,0.4541,0.5493,0.4615,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 3000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5842,0.3693,0.4993,0.5858,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6741,0.4162,0.4802,0.5158,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6985,0.3571,0.5712,0.5011,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 12000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.9879,0.6347,0.7024,0.6019,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 12000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5388,0.4966,0.4995,0.4976,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5109,0.4339,0.4535,0.4769,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 9000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5103,0.5822,0.375,0.5314,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 1500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5716,0.4958,0.4997,0.5816,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 1500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.4416,0.4814,0.4518,0.5348,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 600000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.3682,0.4717,0.4172,0.5816,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 600000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.4771,0.3926,0.5037,0.5348,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 6000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.446,0.344,0.4616,0.5443,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 6000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5606,0.4988,0.4236,0.3938,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.5212,0.553,0.3647,0.5592,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 30000000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.4634,0.6119,0.5084,0.5248,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 4500000, gấp 3 lần ticket size tối đa của investor.",1.0
+0.6755,0.5049,0.501,0.4615,0.0,0,construction_ticket_mismatch,investor,,"Construction: funding ép thành 4500000, gấp 3 lần ticket size tối đa của investor.",1.0

@@ -4,7 +4,7 @@ import json
 import os
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
- 
+import pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
  
 from core.llm_judge import judge_pairwise_consistent
@@ -47,13 +47,13 @@ PAIRWISE_MAX_WORKERS = 4
 
 def _run_one_comparison(startup: dict, investor_a: dict, investor_b: dict,
                          anchor_positive: dict, anchor_negative: dict) -> list:
-    winner = judge_pairwise_consistent(startup, investor_a, startup, investor_a, investor_b,
+    winner = judge_pairwise_consistent(startup, investor_a, investor_b,
         anchor_positive=anchor_positive, anchor_negative=anchor_negative,
         n_calls=PAIRWISE_N_CALLS,
     )
     if winner is None:
         return []
-    if winner is "tie":
+    if winner == "tie":
         return []
     winner_investor = investor_a if winner == "A" else investor_b
     loser_investor = investor_b if winner == "A" else investor_a
@@ -108,15 +108,21 @@ def main():
     if not all_rows:
         print("[bootstrap] Không sinh được dòng nào — kiểm tra lại data đầu vào.")
         return
-    fieldnames = [c for c in BASE_FEATURE_COLUMNS if any(c in r for r in all_rows)] + ["label", "source", "weight"]
-    # fieldnames is constructed by taking all the base feature columns that are present in any of the rows (all_rows) 
-    # and adding the additional columns "label", "source", and "weight" to the list.
+    new_df = pd.DataFrame(all_rows)
+
+    if os.path.exists(OUTPUT_PATH):
+        old_df = pd.read_csv(OUTPUT_PATH)
+        # Chỉ giữ lại nhãn bootstrap_llm gốc từ file cũ, loại bỏ construction/pairwise cũ
+        # để tránh nhân đôi khi chạy lại (giống cơ chế trong generate_pairs.py)
+        old_df = old_df[old_df["source"] == "bootstrap_llm"]
+        combined = pd.concat([old_df, new_df], ignore_index=True)
+    else:
+        combined = new_df
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in all_rows:
-            writer.writerow({k: row.get(k, 0.0) for k in fieldnames})
+    combined.to_csv(OUTPUT_PATH, index=False)
+    print(f"[bootstrap] Đã ghi {len(combined)} dòng vào {OUTPUT_PATH} "
+          f"({len(new_df)} dòng mới: {len(construction_rows)} construction + {len(pairwise_rows)} pairwise).")
  
  
  
